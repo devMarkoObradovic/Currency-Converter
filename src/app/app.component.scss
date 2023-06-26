@@ -1,0 +1,51 @@
+$primary: #00d4ff;
+$secondary: #F7F7F7;
+$tertiary: #7C2AC8;
+
+.card {
+  margin: 20px auto;
+  padding: 0;
+  background-color: #F7F7F7;
+}
+
+h1,
+h5 {
+  margin-top: 8px;
+}
+
+button {
+  width: 60%;
+  margin-top: 1rem;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+select,
+option:hover {
+  cursor: pointer;
+}
+
+select option:hover {
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+  margin-top: 2px;
+  border-radius: 4px;
+}
+
+.licence-title {
+  color: white;
+
+  span:hover {
+    color: $tertiary;
+    cursor: pointer;
+    transition-duration: 1s;
+  }
+}
+
+
+
